@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 
 function Navigation() {
   return (
@@ -24,8 +25,8 @@ function Navigation() {
             <Nav.Link href="#link">Instructors</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Link href="#link">Support</Nav.Link>
-            <Nav.Link href="#link">Login</Nav.Link>
+            <Nav.Link href="#link"><Button variant="outline-info">Support</Button></Nav.Link>
+            <Nav.Link href="#link"><Button variant="outline-primary">Login</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
