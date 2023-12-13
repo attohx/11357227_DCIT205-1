@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GradeMissing() {
+function GradeMiss() {
   return (
     <div>
         <h1>GradeMissing</h1>
@@ -8,4 +8,4 @@ function GradeMissing() {
   )
 }
 
-export default GradeMissing
+export default GradeMiss

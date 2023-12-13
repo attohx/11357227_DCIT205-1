@@ -1,11 +1,11 @@
 import React from 'react'
 
-function InstructorContact() {
+function InsContact() {
   return (
     <div>
-        <h1>InstructorContact</h1>
+      <h1>Contact Page for instructors </h1>
     </div>
   )
 }
 
-export default InstructorContact
+export default InsContact
