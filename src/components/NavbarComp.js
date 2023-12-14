@@ -29,7 +29,7 @@ function Navigation() {
             <Nav.Link href="/InsContact">Instructors</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Link href="/Faqs.js"><Button variant="outline-info">Support</Button></Nav.Link>
+            <Nav.Link href="/Faqs"><Button variant="outline-info">Support</Button></Nav.Link>
             <Nav.Link href="#link"><Button variant="outline-primary">Login</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>

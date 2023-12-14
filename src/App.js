@@ -17,7 +17,6 @@ import InsContact from './pages/InsContact';
 
 function App() {
   return (
-    <div className='appcontainer'>
       <Router>
         <NavbarComp/>
         <Routes>
@@ -30,7 +29,6 @@ function App() {
         </Routes>
         <FooterComp/>
       </Router>
-    </div>
   )
 }
 
