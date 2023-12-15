@@ -1,0 +1,7 @@
+.table>tbody>tr>td,th
+{
+  border-top: none;
+  border-bottom: none;
+  align-items: center;
+  padding-top: 10px;
+}

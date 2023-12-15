@@ -1,5 +1,7 @@
 import React from 'react'
 import '../scss/globalstyles.css';
+import '../scss/gradereport.css';
+
 
 import Table from 'react-bootstrap/Table';
 
@@ -8,10 +10,9 @@ function GradeReport() {
 
     <div className='appcontainer'>
       <div className='spacer'></div>
-      <Table striped bordered hover variant="white">
+      <Table hover variant="white" className="align-items-center">
         <thead>
           <tr>
-            <th>#</th>
             <th>Course</th>
             <th>Level</th>
             <th>Final Grade</th>
@@ -19,22 +20,39 @@ function GradeReport() {
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Int.Computer Science</td>
+            <td>200</td>
+            <td>A</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Calculus 1</td>
+            <td>200</td>
+            <td>A</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Larry</td>
-            <td>Bird</td>
-            <td>@twitter</td>
+            <td>Statistics</td>
+            <td>200</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>MultiMedia</td>
+            <td>200</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>Data Science</td>
+            <td>200</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>Data Mining</td>
+            <td>200</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>UGRC 201</td>
+            <td>200</td>
+            <td>A</td>
           </tr>
         </tbody>
       </Table>
