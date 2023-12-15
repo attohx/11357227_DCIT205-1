@@ -3,7 +3,7 @@ import '../scss/globalstyles.css';
 
 function InsContact() {
   return (
-    <div>
+    <div className='appcontainer'>
       <div className='spacer'></div>
       <h1>Contact Page for instructors </h1>
       <div className='spacer'></div>

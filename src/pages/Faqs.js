@@ -2,6 +2,8 @@ import React from 'react'
 import '../scss/globalstyles.css';
 import Form from 'react-bootstrap/Form';
 import Accordion from 'react-bootstrap/Accordion';
+import InputGroup from 'react-bootstrap/InputGroup';
+
 
 function Faqs() {
   return (
@@ -9,12 +11,16 @@ function Faqs() {
       <div className='spacer'></div>    
 
       <Form>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
-        </Form.Group>
+      <InputGroup className="mb-3">
+          <Form.Control
+            placeholder="Student's Email"
+            aria-label="Student's Email"
+            aria-describedby="basic-addon2"
+          />
+          <InputGroup.Text id="basic-addon2">@ug.edu.gh</InputGroup.Text>
+        </InputGroup>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
+          <Form.Label>Your Message</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
       </Form>
@@ -22,7 +28,7 @@ function Faqs() {
 
       <Accordion defaultActiveKey={['0']} alwaysOpen>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Accordion Item #1</Accordion.Header>
+          <Accordion.Header>Grade Policy</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -34,7 +40,7 @@ function Faqs() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>Marking Scheme</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

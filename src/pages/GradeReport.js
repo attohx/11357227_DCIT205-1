@@ -3,7 +3,7 @@ import '../scss/globalstyles.css';
 
 function GradeReport() {
   return (
-    <div>
+    <div className='appcontainer'>
       <div className='spacer'></div>    
       <h1>Grade show Report</h1>
       <div>

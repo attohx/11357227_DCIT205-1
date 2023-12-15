@@ -1,8 +1,10 @@
 import React from 'react'
+import '../scss/globalstyles.css';
+
 
 function Dashboard() {
   return (
-    <div className='dashboardcontainer'>
+    <div className='appcontainer'>
 
       <div className='spacer'></div>    
 
