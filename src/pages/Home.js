@@ -11,29 +11,22 @@ function Home() {
   return (
     <div className='appcontainer'>
       <div className='spacer'></div>    
-
       <div className='d-flex justify-content-start'>
-        <Alert show={show} variant="success">
-          <Alert.Heading>Notice!</Alert.Heading>
+        <Alert variant="success">
+          <Alert.Heading>Notice Board</Alert.Heading>
           <p>
-            Please take note that you may need an account to 
-            proceed with account features. And we may use your details to improve our website.
-            Scheduled site maintainance at 12PM FRIDAY - SATURDAY
+            Please login with your school email address to accesss full site features. We may also 
+            take data from your usage to improve our website. Any Questions should be raised at the support page! 
           </p>
           <hr />
-          <div className="d-flex justify-content-start">
-            <Button onClick={() => setShow(false)} variant="outline-success">
-              I agree
-            </Button>
-          </div>
+          <p className="mb-0">
+            Site Scheduled for Maintenance - 12PM FRI-TUE
+          </p>
         </Alert>
       </div>
-      {!show && <Button onClick={() => setShow(true)} variant="outline-danger">Site Notice</Button>}
-
-
     </div>
-    
+
   );
-}
+};
 
 export default Home;

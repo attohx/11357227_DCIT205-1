@@ -9,7 +9,7 @@ function Footer() {
       <Container>
         <Row>
           <Col md={12} className='mx-auto'>
-            <h5>UGCS</h5>
+            <h7>UGCS 2023 Copyright. All Rights Reserved</h7>
           </Col>
           
         </Row>

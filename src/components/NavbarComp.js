@@ -30,7 +30,7 @@ function Navigation() {
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link href="/Faqs"><Button variant="outline-info">Support</Button></Nav.Link>
-            <Nav.Link href="#link"><Button variant="outline-primary">Login</Button></Nav.Link>
+            <Nav.Link href="/Login"><Button variant="outline-primary">Login</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
