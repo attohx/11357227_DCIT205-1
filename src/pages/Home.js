@@ -14,21 +14,21 @@ function Home() {
 
       <div className='d-flex justify-content-start'>
         <Alert show={show} variant="success">
-          <Alert.Heading>My Alert</Alert.Heading>
+          <Alert.Heading>Notice!</Alert.Heading>
           <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-            lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-            fermentum.
+            Please take note that you may need an account to 
+            proceed with account features. And we may use your details to improve our website.
+            Scheduled site maintainance at 12PM FRIDAY - SATURDAY
           </p>
           <hr />
           <div className="d-flex justify-content-start">
             <Button onClick={() => setShow(false)} variant="outline-success">
-              Close me
+              I agree
             </Button>
           </div>
         </Alert>
       </div>
-      {!show && <Button onClick={() => setShow(true)}>Show Alert</Button>}
+      {!show && <Button onClick={() => setShow(true)} variant="outline-danger">Site Notice</Button>}
 
 
     </div>
